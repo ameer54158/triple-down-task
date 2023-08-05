@@ -13,7 +13,7 @@ use App\Models\Notification as Notifications;
 
 class Notification extends Component
 {
-    public  $title, $description, $notificationId, $action='', $users = array(),$users_id=[],$singleNotification='';
+    public  $title, $description, $action='', $users = array(),$users_id=[],$singleNotification='';
 
     /**
      * delete action listener
